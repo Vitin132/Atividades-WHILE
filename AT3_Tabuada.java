@@ -10,29 +10,29 @@ import java.util.Scanner;
  *
  * @author Vitor
  */
-public class AT4_While {
+public class AT3_Tabuada {
 
     public static void main(String[] args) {
 
         Scanner tc = new Scanner(System.in);
 
-       
-        
+        int num = 0;
+        int x;
 
         System.out.println("Digite um número:");
-        int num = tc.nextInt();
+        x = tc.nextInt();
 
-        
-        int x = num;
-        while (x > 1) {
 
-            x--;
-            num = num * x;
+        while (num <= 9) {
+
+            num++;
+
+            int multi = x * num;
+
+            System.out.println(x + " * " + num + " = " + multi);
+
         }
-        System.out.print(num);
 
     }
 
 }
-
-

@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author Vitor
  */
-public class AT2_While {
+public class AT2_ValidaçãoSenha {
 
     public static void main(String[] args) {
 
